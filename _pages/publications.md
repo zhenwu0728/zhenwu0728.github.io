@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: <sup>#</sup>Contributed equally <sup>*</sup>Corresponding author
+description: "# Contributed equally * Corresponding author"
 years: [2022,2021,2020,2019,2018,2017,2016,2015]
 nav: true
 nav_order: 3
