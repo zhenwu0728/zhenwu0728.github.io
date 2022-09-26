@@ -39,12 +39,12 @@
 \ifitemannotation{highlight}
   {\textbf{#1}}
   {#1}%
-\ifitemannotation{first}
-  {\textsuperscript{\#}}
-  {}%
-\ifitemannotation{corresponding}
-  {$^*$}
-  {}%
+% \ifitemannotation{first}
+%   {\textsuperscript{\#}}
+%   {}%
+% \ifitemannotation{corresponding}
+%   {$^*$}
+%   {}%
 }%%
 
 \pagestyle{fancy}
@@ -186,7 +186,7 @@
 \section{Publications}
 \begin{refsection}[papers.bib]
 \nocite{*}
-\defbibnote{mynote}{$^{\#}$ indicates equal contributions; $^*$ indicates corresponding author(s)}
+\defbibnote{mynote}{${\#}$ indicates equal contributions; $*$ indicates corresponding author(s)}
 
 \printbibliography[heading={subbibliography},title=Submitted/Under Review, type = unpublished, prenote=mynote]
 \printbibliography[heading={subbibliography},title=Peer Reviewed Papers, type = article]

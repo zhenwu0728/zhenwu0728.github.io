@@ -1,27 +1,27 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'CV.blg'
-[75] biber:340> INFO - === Fri Jun  3, 2022, 14:03:47
-[87] Biber.pm:418> INFO - Reading 'CV.bcf'
-[167] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[167] Biber.pm:969> INFO - Using all citekeys in bib section 1
-[167] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[167] Biber.pm:969> INFO - Using all citekeys in bib section 2
-[167] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[192] Biber.pm:4383> INFO - Processing section 1
-[204] Biber.pm:4574> INFO - Looking for bibtex file 'papers.bib' for section 1
+[75] biber:340> INFO - === Mon Sep 26, 2022, 17:02:05
+[89] Biber.pm:418> INFO - Reading 'CV.bcf'
+[171] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[171] Biber.pm:969> INFO - Using all citekeys in bib section 1
+[172] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[172] Biber.pm:969> INFO - Using all citekeys in bib section 2
+[172] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[194] Biber.pm:4383> INFO - Processing section 1
+[205] Biber.pm:4574> INFO - Looking for bibtex file 'papers.bib' for section 1
 [207] bibtex.pm:1713> INFO - LaTeX decoding ...
-[255] bibtex.pm:1518> INFO - Found BibTeX data source 'papers.bib'
-[524] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[524] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[524] Biber.pm:4203> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[524] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[564] Biber.pm:4383> INFO - Processing section 2
-[564] Biber.pm:4574> INFO - Looking for bibtex file 'papers.bib' for section 2
-[808] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[808] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[808] Biber.pm:4203> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[809] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[842] bbl.pm:654> INFO - Writing 'CV.bbl' with encoding 'UTF-8'
-[895] bbl.pm:757> INFO - Output to CV.bbl
-[895] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/pb/sxn625r94w77bfkfp_frz08r0000gn/T/biber_tmp_Jclz/4cba211c7098ce6d56874590d4a06a86_81824.utf8, line 4, warning: 6 characters of junk seen at toplevel
-[896] Biber.pm:132> INFO - WARNINGS: 1
+[248] bibtex.pm:1518> INFO - Found BibTeX data source 'papers.bib'
+[513] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[513] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[513] Biber.pm:4203> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[513] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[549] Biber.pm:4383> INFO - Processing section 2
+[549] Biber.pm:4574> INFO - Looking for bibtex file 'papers.bib' for section 2
+[787] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[787] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[787] Biber.pm:4203> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[787] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[819] bbl.pm:654> INFO - Writing 'CV.bbl' with encoding 'UTF-8'
+[867] bbl.pm:757> INFO - Output to CV.bbl
+[868] Biber.pm:130> WARN - BibTeX subsystem: /var/folders/y6/9tt11bxn5wbd1qt65dy3jr2m0000gn/T/biber_tmp_54b8/4cba211c7098ce6d56874590d4a06a86_13329.utf8, line 4, warning: 6 characters of junk seen at toplevel
+[868] Biber.pm:132> INFO - WARNINGS: 1
