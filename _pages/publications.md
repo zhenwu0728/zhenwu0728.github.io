@@ -9,9 +9,13 @@ nav_order: 3
 ---
 <!-- _pages/publications.md -->
 ### Submitted/Under Review
+
+<hr>
+
 <div class="publications">
   {% bibliography -f papers -q @unpublished %}
 </div>
+
 
 <br/>
 
@@ -28,6 +32,9 @@ nav_order: 3
 <br/>
 
 ### Presentation & Talks
+
+<hr>
+
 <div class="publications">
   {% bibliography -f papers -q @inproceedings %}
 </div>

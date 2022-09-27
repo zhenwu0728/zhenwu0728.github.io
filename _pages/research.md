@@ -5,8 +5,10 @@ title: research
 description: <em><strong>Understanding the interactions between microbial activities and biogeochemical cycles</strong></em>
 nav: true
 nav_order: 2
-horizontal: false
+horizontal: true
 ---
+
+<hr>
 
 ### **Background & Significance**
 
@@ -19,7 +21,7 @@ My research interest mainly lies in how to understand and represent the role of 
 ### **Research Projects**
 
 <p></p>
-<!-- pages/projects.md -->
+
 <div class="research">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
@@ -51,7 +53,7 @@ My research interest mainly lies in how to understand and represent the role of 
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
-    <div class="row row-cols-2">
+    <div class="row row-cols-1">
     {%- for project in sorted_projects -%}
       {% include projects_horizontal.html %}
     {%- endfor %}

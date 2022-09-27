@@ -1,25 +1,21 @@
 ---
 layout: page
-title: Microbial Loop and Carbon Cycle
-description: 
-img: 
-importance: 2
+title: PlanktonIndividuals.jl
+description: Development of Individual-Based Micobial Life Cycle Model
+img: assets/img/research_4.gif
+importance: 1
 ---
 
-The structure and rates of photosynthesis and biosynthesis by primary producers in the ocean's subtropical gyres reflect the balance between photons delivered from above, macro-nutrients delivered largely from below, and essential trace metals such as iron which has both oceanic and atmospheric sources.  The observed vertical profiles in Figure 1 from North Pacific and North Atlantic subtropical gyres reveal the transition from nutrient to light limitation over a relatively short distance (less than 100m). The vertical gradients of light and fixed nitrogen oppose one another in the upper ocean suggesting an excess supply of energy near the surface. However, primary production also increases towards the surface raising the question of **how organisms are balancing carbon, energy and nutrient supply and demand.**
+Individual-based models differ from the density-based approaches used in most biogeochemical simulations in the way they represent heterogeneous populations. The unique power of individual-based models lies in the ability to track the position, biomass, and physiological state trajectories of individual cells. To this end, I have developed an individual-based phytoplankton life cycle model ([PlanktonIndividuals.jl](https://juliaocean.github.io/PlanktonIndividuals.jl/dev/) hereafter) with high temporal resolution to connect cellular-scale processes to population-level dynamics of marine microbes. By introducing the concept of `macro-molecular allocation' into the model, PlanktonIndividuals.jl resolves the variable elemental composition of each cell, linked to its physiological state and resource environment. PlanktonIndividuals.jl also uses intra-cellular DNA replication to inform cell division and thus connect to population dynamics in a mechanistic fashion.
+It improves the skill of stoichiometric simulations compared to the widely used 'Monod' and 'Droop' models (Fig.1). Additionally, PlanktonIndividuals.jl exploits the power of modern ocean fluid dynamics models (e.g., MITgcm, ROMS, Oceananigans.jl) to provide the physical foundation to describe the environment experienced by individual microbes at local scales.
 
-Phytoplankton may balance the supply and demand of photosynthesis and biosynthesis by the regulation of nutrient uptake, storage of resources in excess of demand, photo-respiration or the exudation of excess photosynthate. The exudates may be a source of carbon for heterotrophic bacteria, increasing the total biomass of bacteria, enhancing remineralization, and promoting the co-evolution of phototrophic and heterotrophic populations. In this project, we seek to understand how phytoplankton use these mechanisms (especially **exudation**) to balance the supply and demand of carbon, energy and nutrients, and **how exudates affect the population of heterotrophic bacteria**.
+At present, PlanktonIndividuals.jl represents phytoplankton, resolving carbon, nitrogen, and phosphorus cycles. In my future work, I plan to extend the trophic structure of the model to include heterotrophic bacteria and to resolve the cellular allocation and flows of iron, silica, and oxygen cycles. This will enable the model to further examine the elemental composition of marine microbes beyond carbon, nitrogen and phosphorus, and to investigate the synergetic and competitive relationships between phytoplankton and heterotrophic bacteria from their individual behaviors to interpret their traits at the population level.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/research_1.png" title="Figure 1" class="img-fluid rounded z-depth-0" %}
+        {% include figure.html path="assets/img/research_5.png" title="Figure 1" class="img-fluid rounded z-depth-0" %}
     </div>
 </div>
 <div class="caption">
-    Figure 1. Observed climatological average of photosynthesis rate, Chla, nitrate, and photosynthetically active radiation (PAR) at HOT and BATS. The data were from 1988 to 2018 at both stations. Figure modified from <a href= "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GB006941">Wu et al. 2021</a> 
+    Figure 1. Schematic representations of photoautotroph physiology in ecosystem models. Figure modified from <a href= "https://www.annualreviews.org/doi/10.1146/annurev-marine-120709-142848">Follows et al. 2011</a> 
 </div>
-<br/>
-
-Few phytoplankton are strictly photo-autotrophic. Many phytoplankton are mixotrophs, utilizing dissolved organic matter, taking up particulate detrital organic matter or preying upon other living cells and even harvesting organelles. **Mixotrophic lifestyle may enhance fitness, for example  when light intensity is low but inorganic nutrients are abundant**. Mixotrophy can also save energy and can reduce resources available to competitors. However, the contribution of heterotrophic carbon assimilation to phytoplankton growth is not well quantified. One reason is that the uptake measurements using specific organic carbon sources (e.g. glucose, amino acids) do not represent the entirely available DOC pool and may underestimate the actual DOC uptake rates, and the contribution of mixotrophy.
-
-*Prochlorococcus* are the most abundant photo-autotrophic cells on Earth, actively growing at depths ranging from the ocean surface down to the base of the photic zone (~160 m) where the light intensity varies 3-4 orders of magnitudes. Lab experiments showed that *Prochlorococcus* are mixotrophs, able to uptake dissolved organic compounds such as glucose, pyruvate, amino acids, nucleotides and perhaps DMSP. However, to what extent mixotrophy can support or replace photosynthesis for growth and/or respiration in *Prochlorococcus* is still unknown. **In this project, we seek to understand how mixotrophy supports the growth and affects the intracellular stoichiometry of *Prochlorococcus* in low light conditions**.
