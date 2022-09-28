@@ -10,7 +10,7 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 I'm currently a postdoctoral associate in the Program in Atmospheres, Oceans, and Climate at the Massachusetts Institute of Technology (MIT), advised by [Dr. Mick Follows](https://mick.mit.edu/). Before coming to MIT, I completed my PhD in Environmental Sciences at Peking University, advised by [Dr. Yong Liu](http://www.pkuwsl.org/English/column/64/).
