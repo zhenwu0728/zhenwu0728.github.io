@@ -6,7 +6,7 @@ subtitle: <p style="color:gray;">Understanding the interactions between microbia
 
 profile:
   align: right
-  image: prof_pic.png
+  image: self.png
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
