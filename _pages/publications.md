@@ -8,7 +8,7 @@ nav: true
 nav_order: 3
 ---
 <!-- _pages/publications.md -->
-### Submitted/Under Review
+<!-- ### Submitted/Under Review
 
 <hr>
 
@@ -17,7 +17,7 @@ nav_order: 3
 </div>
 
 
-<br/>
+<br/> -->
 
 ### Published Papers
 <div class="publications">
