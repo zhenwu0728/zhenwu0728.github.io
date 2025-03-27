@@ -2,10 +2,14 @@
 # the commented lines are the default social media links supported by the template
 # the socials will be displayed in the order they are defined here
 
-custom_social: # can be any name here other than the ones already defined above
+custom_social1: # can be any name here other than the ones already defined above
   logo: assets/img/pkulogo.png # can be png, svg, jpg
   title: Peking University
   url: https://www.pku.edu.cn/
+custom_social2: # can be any name here other than the ones already defined above
+  logo: assets/img/ceselogo.png # can be png, svg, jpg
+  title: College of Environmental Science and Technology
+  url: https://cese.pku.edu.cn/
 # acm_id: # your dl.acm.org/profile/id
 # blogger_url: # your blogger URL
 # bluesky_url: # your bluesky URL
