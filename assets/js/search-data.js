@@ -46,8 +46,8 @@ ninja.data = [{
           section: "News",},{id: "news-tada-our-paper-single-cell-measurements-and-modelling-reveal-substantial-organic-carbon-acquisition-by-prochlorococcus-is-published-in-nature-microbiology-covered-by-mit-news",
           title: ':tada: Our paper Single cell measurements and modelling reveal substantial organic carbon acquisition...',
           description: "",
-          section: "News",},{id: "news-tada-i-started-a-new-position-as-an-assistant-professor-at-peking-university-and-now-looking-for-postdocs-and-phd-students",
-          title: ':tada: I started a new position as an Assistant Professor at Peking University,...',
+          section: "News",},{id: "news-tada-join-us-we-are-currently-seeking-talented-individuals-to-fill-positions-as-phd-students-and-postdoctoral-researchers-加入我们-实验室诚聘博士生与博士后研究员",
+          title: ':tada: Join Us! - We are currently seeking talented individuals to fill positions...',
           description: "",
           section: "News",},{id: "research-planktonindividuals-jl",
           title: 'PlanktonIndividuals.jl',
@@ -65,6 +65,13 @@ ninja.data = [{
           section: "Research",handler: () => {
               window.location.href = "/research/3_project/";
             },},{
+        id: 'social-custom_social',
+        title: 'Custom_social',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.pku.edu.cn/", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
