@@ -65,11 +65,18 @@ ninja.data = [{
           section: "Research",handler: () => {
               window.location.href = "/research/3_project/";
             },},{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-custom_social1',
+        title: 'Custom_social1',
         section: 'Socials',
         handler: () => {
           window.open("https://www.pku.edu.cn/", "_blank");
+        },
+      },{
+        id: 'social-custom_social2',
+        title: 'Custom_social2',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://cese.pku.edu.cn/", "_blank");
         },
       },{
         id: 'social-email',
